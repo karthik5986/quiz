@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans Unicode';
+    font-variant:normal;
+}
+
+body {
+    background:#ffe5e5;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,61,159,1) 0%, rgba(61,165,219,1) 49%, rgba(42,61,136,1) 95%);
+    width: 100%;
+    height: 8%;
+}
+
+
+
+.quizwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quizHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heading {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px; 
+}
+
+#timer {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: x-large;
+    font-weight: 500;
+    background-color:#ffe5e5;
+    color: red;
+    margin-top: 5%;
+    margin-bottom: 6.5%;
+}
+
+.quizBox {
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 60px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 10px grey;
+   
+    width: 60%;
+}
+
+.quizBoxHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz
+
+
+.quizBoxHeader #qnNum {
+    font-family: 'Poppins', serif;
+    color:brown;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+.quizBox #qn {
+    font-family: 'Poppins', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    padding: 5px 0;
+}
+
+.options {
+    margin-top: 1%;
+}
+
+.btn {
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border: 2px solid grey;
+   border-radius: 10px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+}
+
+.btn:active {
+    background-color: grey;
+}
+
+.message {
+    font-family: 'Poppins', serif;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.score {
+    font-family: 'Poppins', serif;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
